@@ -1,0 +1,12 @@
+diff --git a/node_modules/react-router/dist/development/index.js b/node_modules/react-router/dist/development/index.js
+index 01aa598..50f143f 100644
+--- a/node_modules/react-router/dist/development/index.js
++++ b/node_modules/react-router/dist/development/index.js
+@@ -9353,6 +9353,7 @@ function processRoutes(routes, manifest, routeModules, parentId) {
+ 
+ // lib/server-runtime/cookies.ts
+ var import_cookie = require("cookie");
++const { TextEncoder } = require('util');
+ 
+ // lib/server-runtime/crypto.ts
+ var encoder = new TextEncoder();
