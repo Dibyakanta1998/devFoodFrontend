@@ -46,13 +46,13 @@ const Body = () => {
     );
 
   if (isLoading) return <Shimmer />;
-
   return (
     <div className="body">
       <div className="flex ">
         <div className="m-4 p-4">
           <input
             type="text"
+            data-testid="searchInput"
             className="border border-solid border-black"
             value={searchText}
             onChange={(event) => {
